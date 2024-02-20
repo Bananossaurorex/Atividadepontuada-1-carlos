@@ -21,7 +21,7 @@ programa
      escreva ("\nSeu sexo:", sexo)
      escreva ("\nSeu tempo de casada: ",tempo)
           }
-          se (sexo=="masculino"){
+          senao {
           limpa ()
      escreva ("== Seus dados ==")
      escreva ("\nSeu nome: ",nome)
