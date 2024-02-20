@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio()
+	{
+	cadeia verde,azul,amarelo,vermelho,CD
+		escreva("Digite a cor do CD desejado: ")
+		leia (CD)
+		se (CD == "verde"){
+		escreva ("Este CD custa 10 reais")}
+		se (CD == "azul"){
+		escreva ("Este CD custa 20 reais")}
+		se (CD == "amarelo"){
+		escreva ("Este CD custa 30 reais")}
+		se (CD == "vermelho"){
+		escreva ("Este CD custa 40 reais")
+		}
+	}
+}
