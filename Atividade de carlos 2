@@ -1,0 +1,32 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro tempo
+	cadeia nome, sexo, estado, f
+	escreva("Digite seu nome:")
+		leia (nome)
+	escreva("Digite seu sexo (Feminino ou Masculino):")
+		leia (sexo)
+	escreva("Digite seu estado civil:")
+          leia (estado)
+          
+          se (estado== "casada"){
+     escreva ("Quanto tempo de casada?")
+          leia(tempo)
+          limpa ()
+          escreva ("== Seus dados ==")
+     escreva ("\nSeu nome: ",nome)
+     escreva ("\nSeu sexo:", sexo)
+     escreva ("\nSeu estado civil",estado)
+     escreva ("\nQuantos anos de casada?",tempo)
+          }
+          senao
+          limpa ()
+     escreva ("== Seus dados ==")
+     escreva ("\nSeu nome: ",nome)
+     escreva ("\nSeu sexo:", sexo)
+     escreva ("\nSeu estado civil:",estado)
+}
+}
