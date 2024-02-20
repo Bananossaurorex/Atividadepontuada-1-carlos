@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	//Declarando Variáveis
+		cadeia nome
+		real nota1,nota2,media
+	//Coletando dados	
+		escreva("Nome: ")
+		leia(nome)
+		escreva("Primeira Nota: ")
+		leia(nota1)
+		escreva("Segunda Nota: ")
+		leia(nota2)
+		//Equação
+		media=(nota1+nota2)/2
+	//Exibir informações	
+		limpa()
+		escreva("--Suas informações--")
+		escreva("\nNome do aluno: ",nome)
+		escreva("\nSua media: ",media)
+		//Verificar com estrutura condicional
+		se(media>=6) escreva("\nVocê esta aprovado")
+		se(media>=4 e media<6) escreva("\nVocê esta na recuperação")
+		se(media<4) escreva("\nVocê foi Reprovado")
+	}
+}
