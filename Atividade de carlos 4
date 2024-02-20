@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro maca, morango,kilos
+	//kilo 2.50
+	escreva("Quantos kilos de maça?")
+		leia (maca)
+          se (maca<=5)
+		escreva (maca*1.80)
+		senao
+	escreva (maca*1.50)
+		
+	escreva("\nQuantos kilos de morango?")
+		leia (morango)
+          se (morango<=5)
+	escreva (morango*2,50)
+	     senao
+	escreva (morango*2.20)
+		}
+	}
