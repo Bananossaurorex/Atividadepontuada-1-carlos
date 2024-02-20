@@ -12,7 +12,7 @@ programa
 	escreva("Digite seu estado civil:")
           leia (estado)
           
-          se (estado== "casada"){
+          se ((sexo=="feminino")e(estadoCivil=="casada")){
      escreva ("Quanto tempo de casada?")
           leia(tempo)
           limpa ()
