@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	cadeia produto
+	real preco, total,quantidade,descontode2,descontode3,descontode10
+		escreva("Escreva o nome do produto desejado: ")
+		leia (produto)
+		escreva("Digite a quantidade do produto: ")
+		leia (quantidade)
+		escreva("Digite o preço do produto")
+		leia (preco)
+		//
+		total = preco*quantidade
+		descontode2 =  total-(total*0.02)
+		descontode3 =  total-(total*0.03)
+		descontode10 = total-(total*0.10)
+		
+		//
+		se (quantidade<=5)
+		escreva (descontode2)
+		senao se (quantidade>5 e quantidade<=10)
+		escreva (descontode3)
+		se (quantidade>10)
+		escreva (descontode10)
+		
+		
+	}
+}
