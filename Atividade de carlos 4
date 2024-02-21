@@ -3,20 +3,32 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro maca, morango,kilos
-	//kilo 2.50
+	real maca,morango,kilos,resultado1,resultado2,somatotal,desconto
+	    //Resultado maçã
 	escreva("Quantos kilos de maça?")
 		leia (maca)
-          se (maca<=5)
-		escreva (maca*1.80)
+          se (maca<=5){
+	resultado1=maca*1.80
+	}
 		senao
-	escreva (maca*1.50)
-		
+	resultado1=maca*1.50
+
+		//Resultado morango
 	escreva("\nQuantos kilos de morango?")
 		leia (morango)
-          se (morango<=5)
-	escreva (morango*2,50)
+          se (morango<=5){
+          resultado2=morango*2.50
+          }
 	     senao
-	escreva (morango*2.20)
+	     resultado2=morango*2.20
+	     //Definindo 
+	     somatotal=resultado1+resultado2
+	     desconto=somatotal-(somatotal*0.1)
+	     //Possibilidade de desconto
+	     se (morango+maca>=8 ou somatotal>=25)
+	escreva (desconto)
+	     senao
+	     escreva (somatotal)
 		}
 	}
+
