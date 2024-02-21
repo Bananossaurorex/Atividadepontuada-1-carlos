@@ -1,0 +1,37 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real   litroA, desconto2,totalA,litroG,totalG
+	cadeia Gasolina,Alcool,desconto4
+	caracter opcao
+		escreva("Escolha seu combustivel A ou G: ")
+		leia(opcao)
+		escolha (opcao){
+			caso 'A':
+		        escreva ("Escolha quantos litros: ")
+		        leia (litroA)
+		        totalA = litroA*6.59
+		        se (litroA<25){
+		        desconto2 = totalA-(totalA*0.02)
+		        escreva (desconto2)}
+		        senao
+		        desconto2 = totalA-(totalA*0.04)
+		        escreva (desconto2)
+		        pare
+		     caso 'G':
+		        escreva ("Escolha quantos litros: ")
+		        leia (litroG)
+		        totalG = litroG*3.79
+		        se (litroG<25){
+		        desconto2 = totalG-(totalG*0.02)
+		        escreva (desconto2)}
+		        senao
+		        desconto2 = totalG-(totalG*0.04)
+		        escreva (desconto2)
+		        pare
+		        
+		}
+	}
+}
