@@ -16,9 +16,9 @@ programa
 		        se (litroA<25){
 		        desconto2 = totalA-(totalA*0.02)
 		        escreva (desconto2)}
-		        senao
+		        senao{
 		        desconto2 = totalA-(totalA*0.04)
-		        escreva (desconto2)
+		        escreva (desconto2)}
 		        pare
 		     caso 'G':
 		        escreva ("Escolha quantos litros: ")
